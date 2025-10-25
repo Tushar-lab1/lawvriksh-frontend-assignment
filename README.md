@@ -1,21 +1,48 @@
-<<<<<<< HEAD
-# React + Vite
+# LawVriksh Frontend Intern Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project is a **responsive dashboard frontend** built using **React.js**, based on the Figma design:  
+[Figma Design Link](https://www.figma.com/design/DrIlUfiMDR0OCDKVvB1JRF/Frontend-Assignment?node-id=0-1&t=Yj7sMc4aXcgROAvj-1)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The dashboard includes:  
+- Sidebar with navigation and project creation button  
+- Navbar with search and user info  
+- Cards summarizing revenue, projects, time spent, and resources  
+- Summary Table of project progress  
+- Tasks list with interactive completion check  
+- Workload visualization using task dots  
+- Overall progress chart
 
-## React Compiler
+All data is **mocked locally**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# lawvriksh-frontend-assignment
-Frontend assignment for LawVriksh
->>>>>>> 8ec7fb62668b28dd7432fb1582c5d9e3652facc3
+- **React.js** (Functional components, hooks)  
+- **TailwindCSS** for styling and responsive layout  
+- **Recharts** for Pie chart visualization  
+- **Lucide-React** for icons
+
+---
+
+## Features & UX Enhancements
+
+- **Responsive layout** for desktop, tablet, and mobile  
+- **Sidebar toggle** with smooth slide animation  
+- **Hover effects** for cards, table rows, tasks, and buttons  
+- **Task toggle interaction** with smooth line-through animation  
+- **Workload dots** with hover scale effects  
+- **Pie chart** displaying overall progress with dynamic data  
+- Visual consistency with spacing, colors, and rounded elements
+
+---
+
+## How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<your-username>/lawvriksh-frontend-assignment.git
+2. Install dependencies: npm install
+3. Start the development server: npm run dev
